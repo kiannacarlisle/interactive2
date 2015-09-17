@@ -1,0 +1,39 @@
+body {
+	background: pink;
+}
+
+.container {
+	background-color: white;
+	padding: 15px;
+	width: 600px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+div {
+	display: block;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+a  {
+	color: purple;
+	text-decoration: none;
+
+}
+a: hover {
+	color: pink;
+}
+
+h2 {
+	font-size: 24px;
+}
