@@ -1,0 +1,47 @@
+body {
+	background-image: url("doge_cat.png");
+	width: 600px;
+}
+
+h1 {
+	font-size:60px;
+	font-family: sans-serif;
+	color: white;
+}
+
+ul {
+	font-family: sans-serif;
+	color: white;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 20pt;
+	color: white;
+}
+
+.container {
+	border: 1px white;
+	padding: 15px;
+	width: 600px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+div {
+	display: block;
+}
+
+a  {
+	text-decoration: none;
+	color: white;
+	background-color: pink;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 10px;
+
+}
+
+a:hover {
+	color: purple;
+}

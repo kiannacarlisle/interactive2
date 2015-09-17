@@ -1,5 +1,6 @@
 body {
 	background: pink;
+	
 }
 
 .container {
@@ -12,13 +13,11 @@ body {
 
 img {
 	max-width: 100%;
+	border: 1px;
 }
 
 div {
 	display: block;
-}
-ul {
-	list-style-type: none;
 }
 
 li {
