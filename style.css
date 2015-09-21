@@ -1,6 +1,9 @@
 body {
 	background-image: url("doge_cat.png");
-	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-height: 100%;
+	background-size: cover;
 }
 
 h1 {
