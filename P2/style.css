@@ -1,0 +1,15 @@
+.container {
+	border: 1px white;
+	padding: 15px;
+	width: 600px;
+	margin: 0 auto;
+	font-family: Courier;
+}
+
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
