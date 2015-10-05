@@ -1,0 +1,61 @@
+.container {
+	padding: 15px;
+	margin: 20px;
+	height: 100%;
+}
+
+.header {
+	border: 1px solid black;
+	padding: 15px;
+	position: relative;
+	margin: auto 0;
+	display: inline-block;
+	margin-right: 490px;
+	margin-left: 510px;
+	margin-top: 20px;
+
+}
+
+.line1 {
+	padding: 15px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 500px;
+	margin-bottom: 500px;
+	margin-top: 130px;
+}
+
+.line2 {
+	padding: 15px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 420px;
+	margin-bottom: 500px;
+	margin-top: 1000px;
+}
+.line3 {
+	padding: 15px;
+	border: 1px solid black;
+	margin: 30px;
+	position: relative;
+	display: inline-block;
+	margin-left: 315px;
+	margin-bottom: 500px;
+}
+.line4 {
+	padding: 15px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 400px;
+	margin-bottom: 500px;
+}
+
+.footer {
+	padding: 15px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	position: fixed;
+}

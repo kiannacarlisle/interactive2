@@ -1,0 +1,23 @@
+.container {
+	padding: 15px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	border: 1pt solid black;
+	display: inline-block;
+	padding: 20px;
+}
+div {
+	display: block;
+}
+p {
+	margin-top: 10px;
+}
+.content {
+	border: 1pt solid black;
+	padding: 10px;
+	display: inline-block;
+	position: absolute;
+}
