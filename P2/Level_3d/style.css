@@ -1,0 +1,65 @@
+.container {
+	padding: 15px;
+	margin: 20px;
+	height: 120%;
+	width: 4000px;
+}
+
+.header {
+	border: 1px solid black;
+	padding: 30px;
+	position: absolute;
+	margin: auto 0;
+	display: block;
+	margin-right: 100px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.line1 {
+	padding: 150px;
+	border: 1px solid black;
+	position: absolute;
+	display: block;
+	margin-left: 500px;
+	margin-bottom: 500px;
+	margin-top: 200px;
+}
+
+.line2 {
+	padding: 150px;
+	border: 1px solid black;
+	position: absolute;
+	display: block;
+	margin-left: 700px;
+	margin-bottom: 500px;
+	margin-top: 500px;
+}
+.line3 {
+	padding: 150px;
+	border: 1px solid black;
+	margin: 30px;
+	display: block;
+	position: absolute;
+	display: inline-block;
+	margin-left: 900px;
+	margin-bottom: 500px;
+	margin-top: 800px;
+}
+.line4 {
+	padding: 150px;
+	border: 1px solid black;
+	position: absolute;
+	display: inline-block;
+	margin-left: 1500px;
+	margin-bottom: 600px;
+	margin-top: 1100px;
+}
+
+.footer {
+	padding: 150px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	position: fixed;
+}

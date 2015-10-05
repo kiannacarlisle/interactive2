@@ -4,12 +4,13 @@
 	width: 600px;
 	margin: 0 auto;
 	font-family: Courier;
+
 }
 
 div {
 	display: block;
 }
-
-a {
+ul {
 	text-decoration: none;
+	float: left;
 }

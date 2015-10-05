@@ -1,0 +1,66 @@
+.container {
+	padding: 15px;
+	margin: 20px;
+	height: 120%;
+	width: 10500px;
+}
+
+.header {
+	border: 1px solid black;
+	padding: 30px;
+	position: absolute;
+	margin: auto 0;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.line1 {
+	padding: 30px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 1000px;
+	margin-top: 25px;
+	float: left;
+}
+
+.line2 {
+	padding: 30px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 1500px;
+	margin-top: 25px;
+	float: left;
+}
+.line3 {
+	padding: 30px;
+	border: 1px solid black;
+	display: block;
+	position: relative;
+	display: inline-block;
+	margin-left: 2000px;
+	margin-top: 25px;
+	float: left;
+}
+.line4 {
+	padding: 30px;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 3000px;
+	margin-top: 25px;
+	float: left;
+}
+
+.footer {
+	padding: 15px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	position: fixed;
+	bottom:0;
+	right:0;
+}

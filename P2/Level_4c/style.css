@@ -1,0 +1,81 @@
+.container {
+	height: 100%;
+	width: 1017px;
+	padding: 20px;
+}
+
+body {
+	font-family: Avenir;
+	text-align:center;
+	font-weight: lighter;
+}
+
+div {
+	display: block;
+}
+
+.header {
+	padding: 50px;
+	letter-spacing: 10px;
+	position: relative;
+	display: block;
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	float: center;
+
+}
+
+.line1 {
+	position: relative;
+	display: block;
+	margin-top: 100px;
+	float:right;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+
+}
+
+.line2 {
+	position: relative;
+	display: block;
+	margin-top: 500px;
+	letter-spacing: 1px;
+	float:center;
+	font-size: 12px;
+	text-align: center
+}
+.line3 {
+	position: relative;
+	display: block;
+	margin-top: 600px;
+	float:left;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+
+}
+.line4 {
+	padding: ;
+	position: relative;
+	display: block;
+	margin-top: 1100px;
+	margin-bottom: 215px;
+	float:center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.footer {
+	position: relative;
+	display: block;
+	margin-top: 200px;
+	padding-bottom: 20px;
+	font-size: 5px;
+	letter-spacing: 10px;
+	float: right;
+	text-transform: uppercase;
+
+}
