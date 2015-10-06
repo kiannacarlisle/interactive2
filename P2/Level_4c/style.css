@@ -13,8 +13,8 @@ body {
 div {
 	display: block;
 }
-
 .header {
+	margin-left: 150px;
 	padding: 50px;
 	letter-spacing: 10px;
 	position: relative;
