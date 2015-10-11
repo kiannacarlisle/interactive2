@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+	margin: auto;
+}
+
+.container {
+	color: white;
+	font-size: 100px;
+	font-family: Georgia;
+	font-variant: lowercase;
+	text-align: center;
+}
+a:hover {
+	color: grey;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.header {
+	margin-top: 300px;
+	margin-bottom: 1000px;
+	text-align: center;
+}
+
+.line1 {
+	margin-top: 300px;
+	margin-bottom: 1000px;
+	text-align: center;
+}
+
+.line2 {
+	margin-top: 400px;
+	margin-bottom: 3000px;
+	text-align: center;
+}
+.line3 {
+	margin-top: 600px;
+	margin-bottom: 4000px;
+	text-align: center;
+}
+
+.line4 {
+	margin-top: 800px;
+	margin-bottom: 5000px;
+	text-align: center;
+}
+
+
+.footer {
+	margin-top: 400px;
+	padding-left: 20px;
+	font-size: 10px;
+	position: fixed;
+	margin-bottom: 5000px;
+	text-align: center;
+}

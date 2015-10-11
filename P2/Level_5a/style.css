@@ -1,7 +1,34 @@
-
-
-
 img {
-	width:1017px;
-	height:551px;
+	position: relative;
+	display: inline-block;
+}
+
+body {
+	margin: auto;
+	display:inline-block;
+	margin-left: 12px;
+
+}
+
+h1 { 
+	margin: auto;
+	display:block;
+	text-align: center;
+	font-family: Courier, serif;
+	font-variant: small-caps;
+	letter-spacing: 2pt;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.text {
+	margin: auto;
+	display:block;
+	text-align: center;
+	font-family: Courier, serif;
+	font-variant: small-caps;
+	letter-spacing: 2pt;
+	font-size: 16px;
+	padding: 12px;
+	margin-bottom:5px;
 }
