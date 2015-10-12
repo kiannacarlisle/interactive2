@@ -1,20 +1,21 @@
 .container {
 	height: 100%;
-	width: 1017px;
+	width: 1000px;
 	padding: 20px;
+	margin: auto;
 }
 
 body {
 	font-family: Avenir;
-	text-align:center;
 	font-weight: lighter;
 }
 
 div {
 	display: block;
+
 }
 .header {
-	margin-left: 150px;
+	margin-left: 50px;
 	padding: 50px;
 	letter-spacing: 10px;
 	position: relative;

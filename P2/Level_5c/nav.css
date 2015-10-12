@@ -1,0 +1,17 @@
+.back {
+	position: fixed;
+	float: left;
+
+}
+
+.next {
+	display: inline;
+	position: fixed;
+	float: right;
+	margin-left: 1000px;
+
+}
+
+a {
+	text-decoration: none;
+}

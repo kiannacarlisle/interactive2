@@ -1,15 +1,14 @@
 .container {
 	border: 1px solid black;
-	padding: 500px;
-	margin: 50px;
-	height: 100%;
-	width: 1017px;
+	padding: 25px;
+	margin: 25px;
+	height: 1500px;
+	width: 900px;
 	display:block;
 }
 
 body {
 	font-family: courier;
-	text-align: center;
 }
 
 .header {
