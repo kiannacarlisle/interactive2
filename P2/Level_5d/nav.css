@@ -1,16 +1,22 @@
 .back {
-	position: fixed;
+	display: inline;
+    left: 25px;
+    position: fixed;
+    top: 25px;
 
 }
 
 .next {
 	display: inline;
 	position: fixed;
-	float: right;
-	margin-left: 1000px;
+	display: inline;
+    right: 25px;
+    position: fixed;
+    top: 25px;
 
 }
 
 a {
 	text-decoration: none;
+	color: pink;
 }
