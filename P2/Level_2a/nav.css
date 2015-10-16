@@ -1,14 +1,14 @@
 .back {
 	position: fixed;
-	float: left;
-
+	top: 25px;
+	left: 25px;
 }
 
 .next {
 	display: inline;
 	position: fixed;
-	float: right;
-	margin-left: 1000px;
+	top: 25px;
+	right: 25px;
 
 }
 
