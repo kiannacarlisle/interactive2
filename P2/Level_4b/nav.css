@@ -2,6 +2,7 @@
 	position: fixed;
 	top: 25px;
 	left: 25px;
+	font-family: Helvetica, sans-serif;
 
 }
 
@@ -10,9 +11,11 @@
 	position: fixed;
 	top: 25px;
 	right: 25px;
+	font-family: Helvetica, sans-serif;
 
 }
 
 a {
 	text-decoration: none;
+	font-family: Helvetica, sans-serif;
 }

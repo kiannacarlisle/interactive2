@@ -2,6 +2,7 @@
 	position: fixed;
 	top: 25px;
 	left: 25px;
+	z-index: 5000;
 
 }
 
@@ -10,8 +11,11 @@
 	position: fixed;
 	top: 25px;
 	right: 25px;
+	z-index: 5000;
+
 }
 
 a {
 	text-decoration: none;
+	z-index: 5000;
 }

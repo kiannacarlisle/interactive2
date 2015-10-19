@@ -4,7 +4,12 @@
 	margin: 25px;
 	height: 1500px;
 	width: 900px;
+	margin: auto;
 	display:block;
+}
+
+a {
+	font-family: Helvetica, sans-serif;
 }
 
 body {
