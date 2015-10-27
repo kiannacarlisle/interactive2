@@ -1,0 +1,53 @@
+
+body {
+	background: black;
+
+}
+
+
+.cat {
+	width: 792px;
+	height: 612px;
+	background: url('../images/cat1.jpg');
+}
+
+
+@media screen and (max-width: 1024px) {
+	.one {
+  	display: none;
+  }
+
+  .cat { background: url('../images/cat2.jpg'); }
+}
+
+@media screen and (max-width: 768px) {
+	.two {
+  	display: none;
+  }
+
+  .cat { background: url('../images/cat3.jpg'); }
+}
+
+@media screen and (max-width: 600px) {
+	.three {
+  	display: none;
+  }
+
+  .cat  { background: url('../images/cat4.jpg'); }
+}
+
+@media screen and (max-width: 480px) {
+.four {
+  	display: none;
+  }
+
+ .cat  { background: url('../images/cat5.jpg'); }
+}
+
+@media screen and (max-width: 320px) {
+	.five {
+  	display: none;
+  }
+
+  .cat { background: url('../images/cat6.jpg'); }
+}

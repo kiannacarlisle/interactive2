@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box
+	background: black;
+}
+
+.letter {
+	width: 300px;
+	height: 450px;
+	background: pink;
+	display: inline-block;
+	margin: 0 8px 8px 0;
+	position: relative;
+}
+
+.h .v1{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 6px;
+	background: white;
+}
+
+
+.h .v2 {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 6px;
+	background: black;
+}
+
+.h .h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 6px;
+	background: black;
+}
