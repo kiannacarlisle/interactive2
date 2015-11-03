@@ -1,38 +1,149 @@
+
+body {
+	background-color: black;
+}
+
+.container {
+	padding: 15px;
+}
+
 * {
 	box-sizing: border-box
-	background: black;
+	background-color: black;
 }
 
 .letter {
-	width: 300px;
-	height: 450px;
-	background: pink;
+	width: 85px;
+	height: 100px;
+	background: black;
 	display: inline-block;
-	margin: 0 8px 8px 0;
+	margin: 0 10px 10px 0;
 	position: relative;
 }
 
-.h .v1{
+.a .v1{
 	position: absolute;
 	left: 0;
 	height: 100%;
-	width: 6px;
-	background: white;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
 }
 
 
-.h .v2 {
+.a .v2 {
 	position: absolute;
 	right: 0;
 	height: 100%;
-	width: 6px;
-	background: black;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
 }
 
-.h .h1 {
+.a .h1 {
 	position: absolute;
-	top: 50%;
-	width: 100%;
-	height: 6px;
-	background: black;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
 }
+
+.a .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.a .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.a .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.b .v1 {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.b .h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 38%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.b .h2 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.b .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.b .h4 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	height: 50%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+
+}
+
+
+.b .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
