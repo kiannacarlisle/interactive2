@@ -1,27 +1,108 @@
 
 body {
 	background-color: black;
+	margin: auto;
+	margin-top: 50px;
 }
 
 .container {
 	padding: 15px;
 }
 
-* {
-	box-sizing: border-box
-	background-color: black;
+.credit {
+	font-size: 12px;
+    padding: 15px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    position: fixed;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 650px;
+    z-index: 500000;
 }
+
 
 .letter {
 	width: 85px;
 	height: 100px;
 	background: black;
 	display: inline-block;
-	margin: 0 10px 10px 0;
+	margin: 10px 20px 30px 10px;
 	position: relative;
 }
 
-.a .v1{
+.text {
+	padding: 20px;
+	text-align: left;
+	margin: auto;
+	border: 1px solid white;
+	font-size: 14px;
+	color: white;
+	font-family: sans-serif;
+	width: 300px;
+	line-height: 150%;
+
+}
+
+/* a hover */
+
+
+.a:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.a:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10%;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.a:hover .h2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.a:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10%;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.a:hover .h3 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+.a:hover .h4 {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* a letter */
+
+.a .v1 {
 	position: absolute;
 	left: 0;
 	height: 100%;
@@ -29,7 +110,6 @@ body {
 	transform: skew(0, 20deg);
 
 }
-
 
 .a .v2 {
 	position: absolute;
@@ -75,6 +155,85 @@ body {
 	transform: skew(0deg, -20deg);
 }
 
+/* "b" hover state */
+
+.b:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10%;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.b:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.b:hover .h2 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.b:hover .h3 {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.b:hover .h4 {
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 39%;
+    height: 38px;
+    border: 11px solid white;
+    transform: skew(0, 20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+
+}
+
+.b:hover .h5 {
+	position: absolute;
+    right: 0;
+    top: 50%;
+    width: 39%;
+    height: 40px;
+    border: 11px solid white;
+    transform: skew(0, 20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+
+}
+
+.b:hover .m1 {
+	position: absolute;
+    background: black;
+    height: 20px;
+    width: 20px;
+    top: 23%;
+    z-index: 3;
+    left: 30px;
+	transform: skew(0, -20deg);
+}
+
+/* b letter */
+
 .b .v1 {
 	position: absolute;
 	left: 0;
@@ -113,19 +272,926 @@ body {
 
 .b .h4 {
 	position: absolute;
-	right: 0;
-	top: 0;
-	width: 39%;
-	height: 50%;
-	border: 5px solid white;
-	transform: skew(0, -20deg);
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;
+    right: 0;
+    top: -1px;
+    width: 39%;
+    height: 38px;
+    border: 11px solid white;
+    transform: skew(0, -20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
 
 }
 
-
 .b .h5 {
+	position: absolute;
+    right: 0;
+    top: 48%;
+    width: 39%;
+    height: 40px;
+    border: 11px solid white;
+    transform: skew(0, -20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+
+}
+
+/* c hover */
+
+.c:hover .v1 {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.c:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.c:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.c:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.c:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* c letter */
+
+.c .v1 {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.c .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.c .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.c .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.c .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* d hover */
+
+.d:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.d:hover .h1 {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+	z-index: 2;
+}
+
+.d:hover .h2 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+	z-index: 2;
+}
+
+.d:hover .h3 {
+	position: absolute;
+    right: 0;
+    top: -1px;
+    width: 39%;
+    height: 89px;
+    border: 11px solid white;
+    transform: skew(0, 20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+}
+
+.d:hover .m2 {
+	position: absolute;
+    background: black;
+    height: 20px;
+    width: 20px;
+    bottom: 64px;
+    z-index: 3;
+    left: 30px;
+	transform: skew(0, -20deg);
+}
+
+.d:hover .m1 {
+	position: absolute;
+    background: black;
+    height: 20px;
+    width: 20px;
+    bottom: 7px;
+    z-index: 3;
+    left: 30px;
+	transform: skew(0, -20deg);
+}
+
+/* d letter */
+
+.d .v1 {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.d .h1 {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+	z-index: 2;
+}
+
+.d .h2 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+	z-index: 2;
+}
+
+.d .h3 {
+	position: absolute;
+    right: 0;
+    top: -1px;
+    width: 39%;
+    height: 89px;
+    border: 11px solid white;
+    transform: skew(0, -20deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+}
+
+.d .m2 {
+	position: absolute;
+    background: black;
+    height: 20px;
+    width: 20px;
+    bottom: 64px;
+    z-index: 3;
+    left: 30px;
+	transform: skew(0, 20deg);
+}
+
+.d .m1 {
+	position: absolute;
+    background: black;
+    height: 18px;
+    width: 20px;
+    bottom: -35px;
+    z-index: 3;
+    left: 30px;
+	transform: skew(0, 20deg);
+}
+
+/* e hover */
+
+.e:hover .v1  {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.e:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.e:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.e:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.e:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.e:hover .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.e:hover .h6 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* e letter */
+
+.e .v1  {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.e .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.e .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.e .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.e .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.e .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.e .h6 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* f hover */
+
+.f:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.f:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.f:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.f:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.f:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* f letter */
+
+.f .v1{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.f .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.f .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.f .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.f .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* g hover */
+
+.g:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.g:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.g:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.g:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.g:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.g:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 60%;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.g:hover .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* g letter */
+
+.g .v1 {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.g .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.g .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.g .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.g .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.g .v2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.g .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* h hover */
+
+.h:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.h:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.h:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.h:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* h letter */
+
+.h .h1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.h .h2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.h .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.h .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* i hover */
+
+.i:hover .v1 {
+	position: absolute;
+	top: 0;
+	left: 45%;
+	height: 95%;
+	border: 4px solid white;
+	transform: skew(0, -20deg);
+}
+
+.i:hover .h1 {
+	position: absolute;
+	top: 3;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.i:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 3;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.i:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.i:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.i:hover .v2 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 95%;
+	border: 2.5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* i letter */
+
+.i .v1 {
+	position: absolute;
+	top: 10px;
+	left: 45%;
+	height: 95%;
+	border: 4px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.i .h1 {
+	position: absolute;
+	top: 3;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.i .h2 {
+	position: absolute;
+	right: 0;
+	top: 3;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.i .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.i .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.i .v2 {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	height: 95%;
+	border: 2.5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* j hover */
+
+.j:hover .v1 {
+	position: absolute;
+	right: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.j:hover .h2 {
+	position: absolute;
+	left: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.j:hover .h3 {
+	position: absolute;
+	right: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+
+/* j letter */
+
+.j .v1 {
+	position: absolute;
+	right: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.j .h2 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.j .h3 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* k hover */
+
+.k:hover .v1 {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.k:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 44%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.k:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 44%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+.k:hover .d1 {
+	position: absolute;
+    right: 22px;
+    top: 0px;
+    height: 40px;
+    border: 5px solid white;
+    transform: rotate(8deg) skew(-30deg);
+}
+
+.k:hover .d2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	height: 50%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* k letter */
+
+.k .v1 {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.k .h1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.k .h2 {
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -133,17 +1199,2941 @@ body {
 	border: 5px solid white;
 	transform: skew(0, -20deg);
 }
+.k .d1 {
+	position: absolute;
+    right: 22px;
+    top: 0px;
+    height: 54px;
+    border: 5px solid white;
+    transform: rotate(-8deg) skew(-30deg);
+}
+
+.k .d2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	height: 50%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* l hover */
+
+.l:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.l:hover .h2 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.l:hover .h3 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* l letter */
+
+.l .v1 {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.l .h2 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.l .h3 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* m hover */
+
+.m:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.m:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.m:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.m:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* m letter */
+
+.m .h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 30deg);
+}
+
+.m .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -30deg);
+}
+
+.m .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.m .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* n hover */
+
+.n:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.n:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 97%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.n:hover .h1 {
+	position: absolute;
+    left: 37px;
+    top: 0px;
+    height: 101%;
+    border: 6px solid white;
+    transform: skew(0, 20deg) rotate(-42deg);
+}
+
+/* n letter */
+
+.n .h1 {
+	position: absolute;
+    left: 37px;
+    top: 0px;
+    height: 103%;
+    border: 6px solid white;
+    transform: skew(0, 15deg) rotate(-40deg);
+}
+
+.n .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.n .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* o hover */
+.o:hover .v1 {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.o:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.o:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.o:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.o:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.o:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* o letter */
+
+.o .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.o .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.o .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.o .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.o .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.o .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* p hover */
+
+.p:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.p:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.p:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.p:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.p:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.p:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* p letter */
+
+.p .v1{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.p .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.p .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.p .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.p .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.p .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* q hover */
+
+.q:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.q:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.q:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.q:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.q:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.q:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.q:hover .d1 {
+	position: absolute;
+	right: 10px;
+	top: 100%;
+	width: 15px;
+	border: 5px solid white;
+	transform: skew(0, 50deg);
+
+}
+
+/* q letter */
+
+.q .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+
+.q .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.q .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.q .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.q .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.q .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.q .d1 {
+	position: absolute;
+	right: 10px;
+	top: 100%;
+	width: 15px;
+	border: 5px solid white;
+	transform: skew(0, 30deg);
+
+}
+
+/* r hover */
+
+.r:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.r:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.r:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.r:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.r:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.r:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.r:hover .v3 {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	height: 50%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* r letter */
+
+.r .v1{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.r .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.r .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.r .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.r .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.r .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.r .v3 {
+	position: absolute;
+	right: 10px;
+	top:50%;
+	height: 50%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* s hover */
+
+.s:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.s:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.s:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.s:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.s:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.s:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 60%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.s:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.s:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* s letter */
+
+.s .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.s .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.s .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.s .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.s .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.s .v2 {
+	position: absolute;
+	right: 0;
+	top:50%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.s .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.s .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* t hover */
+
+.t:hover .v1 {
+	position: absolute;
+    top: 0;
+    left: 43%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+.t:hover .h1 {
+	position: absolute;
+	top: 3;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.t:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 3;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.t:hover .v2 {
+	position: absolute;
+    top: 0;
+    left: 51%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+
+/* t letter */
+
+.t .v1 {
+	position: absolute;
+    top: 10px;
+    left: 43%;
+    height: 95%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+
+}
+
+.t .h1 {
+	position: absolute;
+	top: 3;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.t .h2 {
+	position: absolute;
+	right: 0;
+	top: 3;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.t .v2 {
+	position: absolute;
+    top: 10px;
+    left: 51%;
+    height: 95%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
+
+/* u hover */
+
+.u:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.u:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.u:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.u:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+
+/* u letter */
+
+.u .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+
+.u .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.u .h1 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.u .h2 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* v hover */
+
+.v:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 45%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.v:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 45%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.v:hover .h1 {
+	position: absolute;
+    left: -7px;
+    top: 80%;
+    width: 55%;
+    border: 6px solid white;
+    transform: skew(0deg, 30deg) rotate(50deg);
+}
+
+.v:hover .h2 {
+	position: absolute;
+    right: -7px;
+    top: 80%;
+    width: 55%;
+    border: 6px solid white;
+    transform: skew(0deg, -30deg) rotate(-50deg);
+}
+
+
+/* v letter */
+
+.v .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 45%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+
+.v .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 45%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.v .h1 {
+	position: absolute;
+    left: -7px;
+    top: 80%;
+    width: 55%;
+    border: 6px solid white;
+    transform: skew(0deg, 30deg) rotate(50deg);
+}
+
+.v .h2 {
+	position: absolute;
+    right: -7px;
+    top: 80%;
+    width: 55%;
+    border: 6px solid white;
+    transform: skew(0deg, -30deg) rotate(-50deg);
+}
+
+/* w hover */
+
+.w:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 80%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.w:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 80%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.w:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.w:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+
+/* w letter*/
+
+.w .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+
+.w .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.w .h1 {
+	position: absolute;
+	left: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.w .h2 {
+	position: absolute;
+	right: 0;
+	top: 90%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* x hover */
+
+.x:hover .v1 {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	height: 40%;
+	border: 6px solid white;
+	transform: skew(0, 30deg) rotate(-45deg);
+}
+
+.x:hover .v2 {
+	position: absolute;
+	left: 15px;
+	top: 55%;
+    height: 40%;
+	border: 6px solid white;
+	transform: skew(0, -30deg) rotate(45deg);
+}
+
+.x:hover .v3 {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	height: 40%;
+	border: 6px solid white;
+	transform: skew(0, -30deg) rotate(45deg);
+}
+
+.x:hover .v4 {
+	position: absolute;
+	right: 15px;
+	top: 55%;
+    height: 40%;
+	border: 6px solid white;
+	transform: skew(0, 30deg) rotate(-45deg);
+}
+
+
+/* x letter */
+
+.x .v1 {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	height: 40%;
+	border: 6px solid white;
+	transform: skew(0, 30deg) rotate(-50deg);
+}
+
+.x .v2 {
+	position: absolute;
+	left: 15px;
+	top: 55%;
+    height: 40%;
+	border: 6px solid white;
+	transform: skew(0, -30deg) rotate(50deg);
+}
+
+.x .v3 {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	height: 40%;
+	border: 6px solid white;
+	transform: skew(0, -30deg) rotate(50deg);
+}
+
+.x .v4 {
+	position: absolute;
+	right: 15px;
+	top: 55%;
+    height: 40%;
+	border: 6px solid white;
+	transform: skew(0, 30deg) rotate(-50deg);
+}
+
+/* y hover */
+
+.y:hover .h1 {
+	position: absolute;
+    left: -2px;
+    top: 18%;
+    width: 48%;
+    border: 6px solid white;
+    transform: skew(0deg, 35deg) rotate(50deg);
+}
+
+.y:hover .h2 {
+	position: absolute;
+    right: -2px;
+    top: 18%;
+    width: 46%;
+    border: 6px solid white;
+    transform: skew(0deg, -35deg) rotate(-50deg);
+}
+
+.y:hover .v1 {
+	position: absolute;
+    top: 53%;
+    left: 44%;
+    height: 49%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
+
+.y:hover .v2 {
+	position: absolute;
+    top: 53%;
+    left: 51%;
+    height: 49%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+
+/* y letter */
+
+.y .h1 {
+	position: absolute;
+    left: -2px;
+    top: 18%;
+    width: 48%;
+    border: 6px solid white;
+    transform: skew(0deg, 40deg) rotate(50deg);
+}
+
+.y .h2 {
+	position: absolute;
+    right: -2px;
+    top: 18%;
+    width: 46%;
+    border: 6px solid white;
+    transform: skew(0deg, -40deg) rotate(-50deg);
+}
+
+.y .v1 {
+	position: absolute;
+    top: 53%;
+    left: 44%;
+    height: 49%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+.y .v2 {
+	position: absolute;
+    top: 53%;
+    left: 51%;
+    height: 49%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
+
+/* z hover */
+
+.z:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.z:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.z:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.z:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.z:hover .v1 {
+	position: absolute;
+    left: 38px;
+    top: 10px;
+    height: 90%;
+    border: 5px solid white;
+    transform: skew(0, -25deg) rotate(52deg);
+}
+
+
+/* z letter */
+
+.z .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.z .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.z .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.z .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.z .v1 {
+	position: absolute;
+    left: 37px;
+    top: -5px;
+    height: 93%;
+    border: 5px solid white;
+    transform: skew(0, -20deg) rotate(50deg);
+}
+
+/* one hover */
+
+.one:hover .v1 {
+	position: absolute;
+    top: 0;
+    left: 43%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+.one:hover .v2 {
+	position: absolute;
+    top: 0;
+    left: 51%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+
+/* one letter */
+
+.one .v1 {
+	position: absolute;
+    top: 0;
+    left: 43%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+
+}
+
+.one .v2 {
+	position: absolute;
+    top: 0;
+    left: 51%;
+    height: 100%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
+
+/* two hover */
+
+.two:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.two:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.two:hover .v1{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.two:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.two:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.two:hover .v2 {
+	position: absolute;
+    left: 0;
+    top: 56%;
+    height: 49%;
+    border: 5px solid white;
+    transform: skew(0, -20deg);
+}
+
+.two:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.two:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+
+/* two letter */
+
+.two .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.two .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.two .v1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.two .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.two .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.two .v2 {
+	position: absolute;
+    left: 0;
+    top: 45%;
+    height: 49%;
+    border: 5px solid white;
+    transform: skew(0, 20deg);
+}
+
+.two .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.two .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* three hover */
+
+.three:hover .v1  {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.three:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.three:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.three:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.three:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.three:hover .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.three:hover .h6 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* three letter */
+
+.three .v1  {
+	position: absolute;
+	right: 0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.three .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.three .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.three .h3 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.three .h4 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.three .h5 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.three .h6 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* four hover */
+
+.four:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.four:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.four:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+
+.four:hover .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* four letter */
+
+.four .h1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.four .h2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.four .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.four .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* five hover */
+
+.five:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.five:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.five:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 34%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.five:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.five:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.five:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 53%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.five:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.five:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+/* five letter */
+
+.five .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.five .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.five .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 34%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.five .h3 {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.five .h4 {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.five .v2 {
+	position: absolute;
+	right: 0;
+	top: 43%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.five .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.five .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+/* six hover */
+
+.six:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.six:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.six:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.six:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.six:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.six:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 60%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.six:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.six:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.six:hover .v3 {
+	position: absolute;
+	left: 0;
+	top: 60%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* six letter */
+
+.six .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.six .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.six .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.six .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.six .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.six .v2 {
+	position: absolute;
+	right: 0;
+	top:50%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.six .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.six .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.six .v3 {
+	position: absolute;
+	left: 0;
+	top:50%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* seven hover */
+
+.seven:hover .h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.seven:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+
+.seven:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+
+/* seven letter */
+
+.seven .h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.seven .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+
+.seven .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* eight hover */
+
+.eight:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.eight:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.eight:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.eight:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.eight:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.eight:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.eight:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.eight:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.eight:hover .v3 {
+	position: absolute;
+	left: 0;
+	top: 60%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+
+/* eight letter */
+
+.eight .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.eight .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.eight .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.eight .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.eight .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.eight .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.eight .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.eight .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.eight .v3 {
+	position: absolute;
+	left: 0;
+	top:50%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* nine hover */
+
+.nine:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.nine:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.nine:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.nine:hover .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.nine:hover .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.nine:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+/* nine letter */
+
+.nine .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.nine .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.nine .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.nine .h3 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.nine .h4 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.nine .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+/* zero hover */
+
+.zero:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.zero:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.zero:hover .v1{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+
+}
+
+.zero:hover .v2 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.zero:hover .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.zero:hover .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.zero:hover .v3 {
+	position: absolute;
+	left: 0;
+	top: 60%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.zero:hover .v4 {
+	position: absolute;
+    left: 37px;
+    top: 10px;
+    height: 93%;
+    border: 5px solid white;
+    transform: skew(0, -20deg) rotate(50deg);
+}
+
+
+/* zero letter */
+
+.zero .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.zero .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.zero .v1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+
+}
+
+.zero .v2 {
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 90%;
+	border: 5px solid white;
+	transform: skew(0, -20deg);
+}
+
+.zero .h5 {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.zero .h6 {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.zero .v3 {
+	position: absolute;
+	left: 0;
+	top:50%;
+	height: 44%;
+	border: 5px solid white;
+	transform: skew(0, 20deg);
+}
+
+.zero .v4 {
+	position: absolute;
+    left: 37px;
+    top: -5px;
+    height: 93%;
+    border: 5px solid white;
+    transform: skew(0, -20deg) rotate(50deg);
+}
+
+/* question hover */
+
+.question:hover .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.question:hover .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.question:hover .v1{
+	position: absolute;
+    right: 0;
+    top: 10px;
+    height: 28%;
+    border: 5px solid white;
+    transform: skew(0, 20deg);
+
+}
+
+.question:hover .h4 {
+	position: absolute;
+    right: 0;
+    top: 40%;
+    width: 39%;
+    border: 5px solid white;
+    transform: skew(0deg, 20deg);
+}
+
+.question:hover .v2 {
+	position: absolute;
+    left: 49%;
+    top: 40%;
+    height: 23%;
+    border: 5px solid white;
+    transform: skew(0, 20deg);
+}
+
+.question:hover .v3 {
+	position: absolute;
+    left: 49%;
+    top: 90%;
+    height: 2px;
+    border: 5px solid white;
+    transform: skew(0, 20deg);
+}
+
+
+/* question letter */
+
+.question .h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, 20deg);
+}
+
+.question .h2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 39%;
+	border: 5px solid white;
+	transform: skew(0deg, -20deg);
+}
+
+.question .v1{
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 28%;
+    border: 5px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+.question .h4 {
+	position: absolute;
+    right: 0;
+    top: 40%;
+    width: 39%;
+    border: 5px solid white;
+    transform: skew(0deg, -20deg);
+}
+
+.question .v2 {
+	position: absolute;
+    left: 49%;
+    top: 50%;
+    height: 23%;
+    border: 5px solid white;
+    transform: skew(0, -20deg);
+}
+
+.question .v3 {
+	position: absolute;
+    left: 49%;
+    top: 90%;
+    height: 2px;
+    border: 5px solid white;
+    transform: skew(0, -20deg);
+}
+
+/* period hover */
+
+.period:hover .v3 {
+	position: absolute;
+    left: 49%;
+    top: 90%;
+    height: 2px;
+    border: 5px solid white;
+    transform: skew(0, 20deg);
+}
+
+
+/* period letter */
+
+.period .v3 {
+	position: absolute;
+    left: 49%;
+    top: 90%;
+    height: 2px;
+    border: 5px solid white;
+    transform: skew(0, -20deg);
+}
+
+/* quotes hover */
+
+.quotes:hover .v1 {
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, 20deg);
+
+}
+.quotes:hover .v2 {
+	position: absolute;
+    right: 10px;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, 20deg);
+
+}
+
+.quotes:hover .v3 {
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, -20deg);
+
+}
+.quotes:hover .v4 {
+	position: absolute;
+    left: 10px;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+/* quotes letter */
+
+.quotes .v1 {
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, -20deg);
+
+}
+.quotes .v2 {
+	position: absolute;
+    right: 10px;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+.quotes .v3 {
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, 20deg);
+
+}
+.quotes .v4 {
+	position: absolute;
+    left: 10px;
+    top: 0;
+    height: 4px;
+    border: 4px solid white;
+    transform: skew(0, 20deg);
+
+}
+
+/* exclaimation hover */
+
+.exclaimation:hover .v1 {
+	position: absolute;
+    top: 0;
+    left: 43%;
+    height: 70%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+
+}
+
+.exclaimation:hover .v2 {
+	position: absolute;
+    top: 0;
+    left: 51%;
+    height: 70%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+.exclaimation:hover .v3 {
+	    position: absolute;
+    left: 51%;
+    top: 90%;
+    height: 2px;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
+
+.exclaimation:hover .v4 {
+	position: absolute;
+    left: 44%;
+    top: 90%;
+    height: 2px;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
 
 
 
+/* exclaimation letter */
 
+.exclaimation .v1 {
+	position: absolute;
+    top: 0;
+    left: 43%;
+    height: 70%;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
 
+}
 
+.exclaimation .v2 {
+	position: absolute;
+    top: 0;
+    left: 51%;
+    height: 70%;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
 
+.exclaimation .v3 {
+	    position: absolute;
+    left: 51%;
+    top: 90%;
+    height: 2px;
+    border: 3px solid white;
+    transform: skew(0, -20deg);
+}
 
-
-
-
-
-
-
+.exclaimation .v4 {
+	position: absolute;
+    left: 44%;
+    top: 90%;
+    height: 2px;
+    border: 3px solid white;
+    transform: skew(0, 20deg);
+}
