@@ -14,3 +14,9 @@ body {
 	height: inherit;
 	border: none;
 }
+
+img {
+	width: 500px;
+	height: inherit;
+	padding-top: 40px;
+}
